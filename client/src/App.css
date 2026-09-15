@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: #f5f6f8;
+  color: #1f2430;
+}
+
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 32px 20px 60px;
+}
+
+.header h1 {
+  font-size: 26px;
+  margin-bottom: 4px;
+}
+
+.header p {
+  color: #5b6472;
+  margin-top: 0;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #e2e5ea;
+  margin: 24px 0;
+  align-items: flex-end;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1 1 140px;
+}
+
+.field label {
+  font-size: 13px;
+  color: #5b6472;
+}
+
+.field input,
+.field select {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #cbd0d8;
+  font-size: 14px;
+}
+
+.form button {
+  padding: 9px 18px;
+  background: #2f6f4f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  height: 38px;
+}
+
+.form button:hover {
+  background: #275c41;
+}
+
+.error {
+  color: #b3261e;
+}
+
+.summary {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.summary > div {
+  background: #ffffff;
+  border: 1px solid #e2e5ea;
+  border-radius: 8px;
+  padding: 14px 18px;
+  flex: 1;
+}
+
+.summary-label {
+  display: block;
+  font-size: 12px;
+  color: #5b6472;
+}
+
+.summary-value {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.entries-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  border: 1px solid #e2e5ea;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.entries-table th,
+.entries-table td {
+  text-align: left;
+  padding: 10px 14px;
+  border-bottom: 1px solid #eceef1;
+  font-size: 14px;
+}
+
+.entries-table th {
+  background: #f0f2f5;
+  font-weight: 600;
+  color: #3a4150;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: #b3261e;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.delete-btn:hover {
+  text-decoration: underline;
+}
